@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4336BDB655B1CD2796D61D /* libPods-Photoworthy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9056F5DB114964CC4239271C /* libPods-Photoworthy.a */; };
+		EE08D18320C16D5B00962A33 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EE08D18220C16D5B00962A33 /* Podfile */; };
 		EE12AB8D20BEF0F8003FB07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12AB8C20BEF0F8003FB07B /* AppDelegate.swift */; };
 		EE12AB8F20BEF0F8003FB07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12AB8E20BEF0F8003FB07B /* ViewController.swift */; };
 		EE12AB9220BEF0F8003FB07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB9020BEF0F8003FB07B /* Main.storyboard */; };
 		EE12AB9420BEF0FA003FB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB9320BEF0FA003FB07B /* Assets.xcassets */; };
 		EE12AB9720BEF0FA003FB07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB9520BEF0FA003FB07B /* LaunchScreen.storyboard */; };
 		EE12ABA220BEF0FA003FB07B /* PhotoworthyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12ABA120BEF0FA003FB07B /* PhotoworthyTests.swift */; };
+		EE5D6CF920D5277B00A745A9 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D6CF820D5277B00A745A9 /* Place.swift */; };
+		EE5D6CFB20D7AC6D00A745A9 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D6CFA20D7AC6D00A745A9 /* Statistic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19A344E6094C322596C436A6 /* Pods-Photoworthy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoworthy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photoworthy/Pods-Photoworthy.debug.xcconfig"; sourceTree = "<group>"; };
+		59F62CA3CB6D1AAB9F441819 /* Pods-Photoworthy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoworthy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photoworthy/Pods-Photoworthy.release.xcconfig"; sourceTree = "<group>"; };
+		9056F5DB114964CC4239271C /* libPods-Photoworthy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Photoworthy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE08D18220C16D5B00962A33 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE12AB8920BEF0F8003FB07B /* Photoworthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoworthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE12AB8C20BEF0F8003FB07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE12AB8E20BEF0F8003FB07B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		EE12AB9D20BEF0FA003FB07B /* PhotoworthyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoworthyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE12ABA120BEF0FA003FB07B /* PhotoworthyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoworthyTests.swift; sourceTree = "<group>"; };
 		EE12ABA320BEF0FA003FB07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5D6CF820D5277B00A745A9 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		EE5D6CFA20D7AC6D00A745A9 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4336BDB655B1CD2796D61D /* libPods-Photoworthy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212FE1F47386A15DA5AE32D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A344E6094C322596C436A6 /* Pods-Photoworthy.debug.xcconfig */,
+				59F62CA3CB6D1AAB9F441819 /* Pods-Photoworthy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE12AB8020BEF0F8003FB07B = {
 			isa = PBXGroup;
 			children = (
+				EE08D18220C16D5B00962A33 /* Podfile */,
 				EE12AB8B20BEF0F8003FB07B /* Photoworthy */,
 				EE12ABA020BEF0FA003FB07B /* PhotoworthyTests */,
 				EE12AB8A20BEF0F8003FB07B /* Products */,
+				212FE1F47386A15DA5AE32D8 /* Pods */,
+				FC961C49700C8B8C2E46350A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +106,8 @@
 				EE12AB9320BEF0FA003FB07B /* Assets.xcassets */,
 				EE12AB9520BEF0FA003FB07B /* LaunchScreen.storyboard */,
 				EE12AB9820BEF0FA003FB07B /* Info.plist */,
+				EE5D6CF820D5277B00A745A9 /* Place.swift */,
+				EE5D6CFA20D7AC6D00A745A9 /* Statistic.swift */,
 			);
 			path = Photoworthy;
 			sourceTree = "<group>";
@@ -96,6 +121,14 @@
 			path = PhotoworthyTests;
 			sourceTree = "<group>";
 		};
+		FC961C49700C8B8C2E46350A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9056F5DB114964CC4239271C /* libPods-Photoworthy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE12ABA620BEF0FA003FB07B /* Build configuration list for PBXNativeTarget "Photoworthy" */;
 			buildPhases = (
+				BEAEB410DEC9816A549FB2B3 /* [CP] Check Pods Manifest.lock */,
 				EE12AB8520BEF0F8003FB07B /* Sources */,
 				EE12AB8620BEF0F8003FB07B /* Frameworks */,
 				EE12AB8720BEF0F8003FB07B /* Resources */,
+				E4851E460F1607942E5222C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,6 +214,7 @@
 			files = (
 				EE12AB9720BEF0FA003FB07B /* LaunchScreen.storyboard in Resources */,
 				EE12AB9420BEF0FA003FB07B /* Assets.xcassets in Resources */,
+				EE08D18320C16D5B00962A33 /* Podfile in Resources */,
 				EE12AB9220BEF0F8003FB07B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,13 +228,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BEAEB410DEC9816A549FB2B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photoworthy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4851E460F1607942E5222C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Photoworthy/Pods-Photoworthy-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photoworthy/Pods-Photoworthy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE12AB8520BEF0F8003FB07B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE12AB8F20BEF0F8003FB07B /* ViewController.swift in Sources */,
+				EE5D6CF920D5277B00A745A9 /* Place.swift in Sources */,
 				EE12AB8D20BEF0F8003FB07B /* AppDelegate.swift in Sources */,
+				EE5D6CFB20D7AC6D00A745A9 /* Statistic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +435,13 @@
 		};
 		EE12ABA720BEF0FA003FB07B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A344E6094C322596C436A6 /* Pods-Photoworthy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4397RGHR;
 				INFOPLIST_FILE = Photoworthy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,10 +455,13 @@
 		};
 		EE12ABA820BEF0FA003FB07B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F62CA3CB6D1AAB9F441819 /* Pods-Photoworthy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4397RGHR;
 				INFOPLIST_FILE = Photoworthy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
