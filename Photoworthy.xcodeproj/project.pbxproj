@@ -10,13 +10,18 @@
 		3E4336BDB655B1CD2796D61D /* libPods-Photoworthy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9056F5DB114964CC4239271C /* libPods-Photoworthy.a */; };
 		EE08D18320C16D5B00962A33 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EE08D18220C16D5B00962A33 /* Podfile */; };
 		EE12AB8D20BEF0F8003FB07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12AB8C20BEF0F8003FB07B /* AppDelegate.swift */; };
-		EE12AB8F20BEF0F8003FB07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12AB8E20BEF0F8003FB07B /* ViewController.swift */; };
+		EE12AB8F20BEF0F8003FB07B /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12AB8E20BEF0F8003FB07B /* MapVC.swift */; };
 		EE12AB9220BEF0F8003FB07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB9020BEF0F8003FB07B /* Main.storyboard */; };
 		EE12AB9420BEF0FA003FB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB9320BEF0FA003FB07B /* Assets.xcassets */; };
 		EE12AB9720BEF0FA003FB07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB9520BEF0FA003FB07B /* LaunchScreen.storyboard */; };
 		EE12ABA220BEF0FA003FB07B /* PhotoworthyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12ABA120BEF0FA003FB07B /* PhotoworthyTests.swift */; };
 		EE5D6CF920D5277B00A745A9 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D6CF820D5277B00A745A9 /* Place.swift */; };
 		EE5D6CFB20D7AC6D00A745A9 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D6CFA20D7AC6D00A745A9 /* Statistic.swift */; };
+		EEF2602C20E50EEB005E57DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEF2602B20E50EEB005E57DA /* GoogleService-Info.plist */; };
+		EEF2603020E5205E005E57DA /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2602F20E5205E005E57DA /* SignInVC.swift */; };
+		EEF2603220E522FA005E57DA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2603120E522FA005E57DA /* ProfileVC.swift */; };
+		EEF2603C20EE1B56005E57DA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2603B20EE1B56005E57DA /* SignUpVC.swift */; };
+		EEF2603E20EE4691005E57DA /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF2603D20EE4691005E57DA /* InfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 		EE08D18220C16D5B00962A33 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE12AB8920BEF0F8003FB07B /* Photoworthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoworthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE12AB8C20BEF0F8003FB07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE12AB8E20BEF0F8003FB07B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE12AB8E20BEF0F8003FB07B /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		EE12AB9120BEF0F8003FB07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE12AB9320BEF0FA003FB07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE12AB9620BEF0FA003FB07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,8 +49,14 @@
 		EE12AB9D20BEF0FA003FB07B /* PhotoworthyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoworthyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE12ABA120BEF0FA003FB07B /* PhotoworthyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoworthyTests.swift; sourceTree = "<group>"; };
 		EE12ABA320BEF0FA003FB07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2AE40221280019008D10C4 /* remachine-script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "remachine-script.ttf"; sourceTree = "<group>"; };
 		EE5D6CF820D5277B00A745A9 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		EE5D6CFA20D7AC6D00A745A9 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		EEF2602B20E50EEB005E57DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEF2602F20E5205E005E57DA /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		EEF2603120E522FA005E57DA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		EEF2603B20EE1B56005E57DA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		EEF2603D20EE4691005E57DA /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +111,20 @@
 		EE12AB8B20BEF0F8003FB07B /* Photoworthy */ = {
 			isa = PBXGroup;
 			children = (
-				EE12AB8C20BEF0F8003FB07B /* AppDelegate.swift */,
-				EE12AB8E20BEF0F8003FB07B /* ViewController.swift */,
-				EE12AB9020BEF0F8003FB07B /* Main.storyboard */,
+				EEF2602B20E50EEB005E57DA /* GoogleService-Info.plist */,
+				EE12AB9820BEF0FA003FB07B /* Info.plist */,
 				EE12AB9320BEF0FA003FB07B /* Assets.xcassets */,
 				EE12AB9520BEF0FA003FB07B /* LaunchScreen.storyboard */,
-				EE12AB9820BEF0FA003FB07B /* Info.plist */,
+				EE12AB9020BEF0F8003FB07B /* Main.storyboard */,
+				EE12AB8C20BEF0F8003FB07B /* AppDelegate.swift */,
+				EEF2602F20E5205E005E57DA /* SignInVC.swift */,
+				EEF2603B20EE1B56005E57DA /* SignUpVC.swift */,
+				EE12AB8E20BEF0F8003FB07B /* MapVC.swift */,
+				EEF2603120E522FA005E57DA /* ProfileVC.swift */,
+				EEF2603D20EE4691005E57DA /* InfoVC.swift */,
 				EE5D6CF820D5277B00A745A9 /* Place.swift */,
 				EE5D6CFA20D7AC6D00A745A9 /* Statistic.swift */,
+				EECCF1FD2105E6F9000663E8 /* fonts */,
 			);
 			path = Photoworthy;
 			sourceTree = "<group>";
@@ -119,6 +136,14 @@
 				EE12ABA320BEF0FA003FB07B /* Info.plist */,
 			);
 			path = PhotoworthyTests;
+			sourceTree = "<group>";
+		};
+		EECCF1FD2105E6F9000663E8 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AE40221280019008D10C4 /* remachine-script.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		FC961C49700C8B8C2E46350A /* Frameworks */ = {
@@ -214,6 +239,7 @@
 			files = (
 				EE12AB9720BEF0FA003FB07B /* LaunchScreen.storyboard in Resources */,
 				EE12AB9420BEF0FA003FB07B /* Assets.xcassets in Resources */,
+				EEF2602C20E50EEB005E57DA /* GoogleService-Info.plist in Resources */,
 				EE08D18320C16D5B00962A33 /* Podfile in Resources */,
 				EE12AB9220BEF0F8003FB07B /* Main.storyboard in Resources */,
 			);
@@ -254,13 +280,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Photoworthy/Pods-Photoworthy-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -274,9 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE12AB8F20BEF0F8003FB07B /* ViewController.swift in Sources */,
+				EEF2603C20EE1B56005E57DA /* SignUpVC.swift in Sources */,
+				EEF2603220E522FA005E57DA /* ProfileVC.swift in Sources */,
+				EE12AB8F20BEF0F8003FB07B /* MapVC.swift in Sources */,
 				EE5D6CF920D5277B00A745A9 /* Place.swift in Sources */,
+				EEF2603E20EE4691005E57DA /* InfoVC.swift in Sources */,
 				EE12AB8D20BEF0F8003FB07B /* AppDelegate.swift in Sources */,
+				EEF2603020E5205E005E57DA /* SignInVC.swift in Sources */,
 				EE5D6CFB20D7AC6D00A745A9 /* Statistic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,13 +474,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4397RGHR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
 				INFOPLIST_FILE = Photoworthy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Photoworthy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttsivran.Photoworthy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,13 +503,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4397RGHR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
 				INFOPLIST_FILE = Photoworthy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Photoworthy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ttsivran.Photoworthy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
